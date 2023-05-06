@@ -104,4 +104,13 @@ iex(9)> parse_expression "event:props:prop1==foo;event:props:prop2==escaped\\|pi
 
 iex(10)> parse_expression("country==pl") == parse_expression("visit:country==PL")
 true
+
+iex(1)> defmodule MyFilter do
+...(1)> use Plausible.Filters.Spec
+...(1)> end
+warning: function name/0 required by behaviour Plausible.Filters.Spec is not implemented (in module MyFilter)
+  iex:1: MyFilter (module)
+
+warning: function prefix/0 required by behaviour Plausible.Filters.Spec is not implemented (in module MyFilter)
+  iex:1: MyFilter (module)
 ```
