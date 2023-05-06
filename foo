@@ -1,0 +1,15 @@
+echo "Waiting for processing to complete."
+echo -n "Current status: Accepted"
+echo -n "x"
+sleep 1
+echo -n "x"
+sleep 1
+echo -n "x"
+sleep 1
+echo -n "x"
+sleep 1
+echo -n "x"
+sleep 1
+echo "Processing complete
+  id: f936f6fb-490d-4c97-b880-a65b702edb08
+  status: Accepted"
