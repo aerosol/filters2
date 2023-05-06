@@ -4,7 +4,7 @@
 
 - Each filter is its own module implementing [Filters.Spec](lib/spec.ex) behaviour.
 - Validations and transformations per filter can be implemented optionally per module.
-- Prefixes are automatically added if necessary.
+- Prefixes are automatically [added if necessary](lib/spec/clauses.ex).
 - Filter key can be `:dynamic` and optionally validated as well,
   to support custom props.
 - Extra transformations such as `page_regex` subsitution will be
