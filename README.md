@@ -24,10 +24,10 @@
 
 See sample filters:
 
-[Goal](lib/event/goal.ex)
-[Custom props](lib/event/props.ex)
-[Country](lib/visit/country.ex)
-[Page](lib/visit/page.ex)
+- [Goal](lib/event/goal.ex)
+- [Custom props](lib/event/props.ex)
+- [Country](lib/visit/country.ex)
+- [Page](lib/visit/page.ex)
 
 ```elixir
 iex(1)> parse_expression "foo=bar"
