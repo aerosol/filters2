@@ -11,7 +11,6 @@ defmodule Plausible.Filters.Visit.Country do
 
   def operators() do
     ["==", "!="]
-    |> IO.inspect(label: :country_operators)
   end
 
   def validate_single_value(x) when byte_size(x) == 2 do
