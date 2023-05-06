@@ -6,6 +6,7 @@ defmodule Plausible.Filters do
     [
       Filters.Event.Goal,
       Filters.Event.Props,
+      Filters.Visit.Country,
       Filters.Visit.Page
     ]
   end
