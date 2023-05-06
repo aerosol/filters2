@@ -2,7 +2,7 @@
 
 ## Idea
 
-- Each filter is its own module implementing Filters.Spec behaviour.
+- Each filter is its own module implementing [Filters.Spec](lib/spec.ex) behaviour.
 - Validations and transformations per filter can be implemented optionally per module.
 - Prefixes are automatically added if necessary.
 - Filter key can be `:dynamic` and optionally validated as well,
